@@ -1,0 +1,8 @@
+#include "/etc/regolith/styles/ubuntu/root"
+
+gnome.gtk.theme:	Yaru-Purple-dark
+gnome.icon.theme:	Yaru-Purple
+gnome.wallpaper:	/usr/share/backgrounds/vaporwave landscape.jpg
+i3-wm.client.focused.color.child_border:	#CC00CC
+i3-wm.floatingwindow.border.size:	5
+i3-wm.window.border.size:	3
