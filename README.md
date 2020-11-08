@@ -42,4 +42,6 @@
   - rofi-theme-selector
 
 ## Impostazioni i3
-File .Xresources-regolith
+- File .Xresources-regolith
+- estensioni i3xrocks:
+  - wifi
