@@ -16,6 +16,7 @@
 - htop
 - GDebi
 - Gnome Maps
+- Jupyter
 - Ranger
 ### Snap
 - Mailspring
