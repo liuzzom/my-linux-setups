@@ -664,3 +664,5 @@ exec --no-startup-id $i3-wm.program.3
 
 # Calendar as floating window
 for_window [class="Gnome-calendar"] floating enable
+# Clocks as floating window
+for_window [class="Org.gnome.clocks"] floating enable
