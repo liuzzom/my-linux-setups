@@ -8,12 +8,13 @@ Starting from a clean Ubuntu 20.04 LTS installation, you have to:
 `sudo apt update && sudo apt dist-upgrade -y`
 ### Install Regolith:
 - Add Regolith release PPA: `sudo add-apt-repository ppa:regolith-linux/release`
-- Install Regolith: `sudo apt install or regolith-desktop-mobile`
+- Install Regolith: `sudo apt install regolith-desktop-mobile`
 - Close the current session (or reboot the system) and select "Regolith" during login
 
 
 
 After login, the screen will present you something like this
+
 // **TODO**: inserire screen-01
 
 A *Remontoire* screen will explain you some basics keybindings (e.g. open a terminal, launch rofi menu, open nautilus, etc). You can open/close this window using `<Super>+<Shift>+<?>`
