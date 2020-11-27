@@ -15,7 +15,7 @@ Starting from a clean Ubuntu 20.04 LTS installation, you have to:
 
 After login, the screen will present you something like this
 
-// **TODO**: inserire screen-01
+![Screen 01](https://github.com/liuzzom/my-regolith-config/blob/main/img/screen_01.png)
 
 A *Remontoire* screen will explain you some basics keybindings (e.g. open a terminal, launch rofi menu, open nautilus, etc). You can open/close this window using `<Super>+<Shift>+<?>`
 
@@ -56,7 +56,8 @@ I used `rofi-theme-selector` to select the *Purple* theme.
 - **i3 Borders**: see *Borders* section in `~/.XResources-regolith`
 
 After all Tweaks, you will obtain something like this:
-// **TODO**: inserire screen-02
+
+![Screen 02](https://github.com/liuzzom/my-regolith-config/blob/main/img/screen_02.jpg)
 
 ## Installed Softwares
 ### Settings and Tweaks
