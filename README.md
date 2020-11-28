@@ -11,7 +11,7 @@ Starting from a clean Ubuntu 20.04 LTS installation, you have to:
 - Install Regolith: `sudo apt install regolith-desktop-mobile`
 - Close the current session (or reboot the system) and select "Regolith" during login
 
-After login, the screen will present you something like this
+After login, you will see something like this
 
 ![Screen 01](https://github.com/liuzzom/my-regolith-config/blob/main/img/screen_01.png)
 
