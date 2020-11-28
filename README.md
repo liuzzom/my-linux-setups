@@ -20,7 +20,7 @@ A *Remontoire* screen will explain you some basics keybindings (e.g. open a term
 ## Regolith Customization
 ### Theme
 - Install Ubuntu Regolith theme: `sudo apt install regolith-look-ubuntu` (another cool theme is `regolith-look-pop-os`)
-- The Wallpaper can be changed using the gnome settings (even if I done this in the *.Xresources-regolith* file)
+- The Wallpaper can be changed using the gnome settings
 - You can change the Regolith theme in two ways:
 	- by using the traditional CLI command: `regolith-look set <name>`
 	- by using a GUI selector: `<Super>+<Alt>+<L>`
