@@ -1,3 +1,5 @@
+https://github.com/pop-os/gtk-theme
+
 # My Regolith configuration
 
 ## System Update and Regolith Installation
@@ -10,8 +12,6 @@ Starting from a clean Ubuntu 20.04 LTS installation, you have to:
 - Add Regolith release PPA: `sudo add-apt-repository ppa:regolith-linux/release`
 - Install Regolith: `sudo apt install regolith-desktop-mobile`
 - Close the current session (or reboot the system) and select "Regolith" during login
-
-
 
 After login, the screen will present you something like this
 
@@ -33,9 +33,8 @@ If you changed the theme using the CLI command, you have to restart i3 with `<Su
 - Search available indicators: `apt search ^i3xrocks-`
 - Install some indicator: `sudo apt install <indicator-name>` 
 - In my installation:
-	- I removed the *net-traffic* indicator: `sudo apt remove i3xrocks-net-traffic` 
-	- I installed *volume*, *wifi* and the *focused-window* indicators:
-	  `sudo apt install i3xrocks-volume i3xrocks-wifi i3xrocks-focused-window-name `
+	- I installed *volume*, *wifi* and the *todo* indicators:
+	  `sudo apt install i3xrocks-volume i3xrocks-wifi i3xrocks-todo`
 - After you installed or removed some i3xrocks packages, you have to restart i3 using `<Super>+<Shift>+<R>`
 ### Look
 Most of the changes are made by modifyng the *~/.Xresources-regolith*, some are made by using *gnome-tweaks*. 
@@ -70,8 +69,8 @@ After all Tweaks, you will obtain something like this:
 	- Install: `sudo apt install slimbookbattery -y`
 - **Alacarte**: `sudo apt install alacarte -y`
 - **Gogh**:
-	- Clone the Git repository: `git clone https://github.com/Mayccoll/Gogh.git`
-	- Install: `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
+	- Install Dependencies: `sudo apt-get install dconf-cli uuid-runtime`
+	- Run in the interactive mode: `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
 - **Powerline-Shell**
 	
 	- `sudo add-apt-repository universe`
@@ -152,6 +151,8 @@ You can find some useful conda command in the conda-help file
 - **Regolith Look**: https://regolith-linux.org/docs/customize/look/
 - **Regolith How-To**: https://regolith-linux.org/docs/howto/
 - **Install Font**: https://www.getdroidtips.com/install-fonts-ubuntu/
+- If You have some trouble with **Gogh**: https://github.com/Mayccoll/Gogh/issues/177
+- **Pop OS GTK Theme**: sudo apt install pop-gtk-theme
 
 ## To Install
 - Angular
