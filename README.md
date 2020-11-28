@@ -1,5 +1,3 @@
-https://github.com/pop-os/gtk-theme
-
 # My Regolith configuration
 
 ## System Update and Regolith Installation
@@ -152,7 +150,7 @@ You can find some useful conda command in the conda-help file
 - **Regolith How-To**: https://regolith-linux.org/docs/howto/
 - **Install Font**: https://www.getdroidtips.com/install-fonts-ubuntu/
 - If You have some trouble with **Gogh**: https://github.com/Mayccoll/Gogh/issues/177
-- **Pop OS GTK Theme**: sudo apt install pop-gtk-theme
+- **Pop OS GTK Theme**: https://github.com/pop-os/gtk-theme
 
 ## To Install
 - Angular
