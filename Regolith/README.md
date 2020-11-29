@@ -13,7 +13,7 @@ Starting from a clean Ubuntu 20.04 LTS installation, you have to:
 
 After login, you will see something like this
 
-![Screen 01](https://github.com/liuzzom/my-regolith-config/blob/main/img/screen_01.png)
+![Screen 01](https://github.com/liuzzom/my-linux-setups/blob/main/Regolith/img/screen_01.png)
 
 A *Remontoire* screen will explain you some basics keybindings (e.g. open a terminal, launch rofi menu, open nautilus, etc). You can open/close this window using `<Super>+<Shift>+<?>`
 
@@ -54,7 +54,7 @@ I used `rofi-theme-selector` to select the *Purple* theme.
 
 After all Tweaks, you will obtain something like this:
 
-![Screen 02](https://github.com/liuzzom/my-regolith-config/blob/main/img/screen_02.jpg)
+![Screen 02](https://github.com/liuzzom/my-linux-setups/blob/main/Regolith/img/screen_02.jpg)
 
 ## Installed Softwares
 ### Settings and Tweaks
@@ -71,9 +71,9 @@ After all Tweaks, you will obtain something like this:
 	- Run in the interactive mode: `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
 - **Powerline-Shell**
 	
-	- `sudo add-apt-repository universe`
-	- `sudo apt install --yes powerline`
-	- add the following lines to your $HOME/.bashrc file:
+	- Add repository: `sudo add-apt-repository universe`
+	- Install: `sudo apt install --yes powerline`
+	- Add the following lines to your $HOME/.bashrc file:
 	```bash
 	# Powerline configuration
 	if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
@@ -83,7 +83,7 @@ After all Tweaks, you will obtain something like this:
 	  source /usr/share/powerline/bindings/bash/powerline.sh
 	fi
 	```
-	- `source ~/.bashrc` to apply changes
+	- Use `source ~/.bashrc` to apply changes
 
 ### Developing Tools
 - **VS Code**: 
@@ -102,11 +102,12 @@ After all Tweaks, you will obtain something like this:
 	- Unzip the archive
 	- Run the installer
 - **NodeJS**: `sudo apt install nodejs -y`
-- **NPM**: `sudo apt install nodejs -y`
+- **NPM**: `sudo apt install npm -y`
 - **Miniconda**: 
 	- Download: https://docs.conda.io/en/latest/miniconda.html
 	- Run the installer: `bash Miniconda3-latest-Linux-x86_64.sh` (you don't need to use `sudo`)
 - **IPython**: `sudo apt install ipyhton3`
+- **Maven**: `sudo apt install maven`
 
 You can find some useful conda command in the conda-help file
 ### Tools
@@ -142,6 +143,7 @@ You can find some useful conda command in the conda-help file
 	- `sudo apt install brave-browser`
 - **Mailspring**: `sudo snap install mailspring`
 - **Skype**: `sudo snap install skype --classic`
+- **Zoom**: `sudo snap install zoom-client`
 
 ## Useful References
 - **Regolith Installation**: https://regolith-linux.org/docs/getting-started/install/
@@ -150,22 +152,13 @@ You can find some useful conda command in the conda-help file
 - **Regolith How-To**: https://regolith-linux.org/docs/howto/
 - **Install Font**: https://www.getdroidtips.com/install-fonts-ubuntu/
 - If You have some trouble with **Gogh**: https://github.com/Mayccoll/Gogh/issues/177
-- **Pop OS GTK Theme**: https://github.com/pop-os/gtk-theme
 
 ## To Install
 - Angular
-- Maven
 - Docker + Docker Compose
-- Eclipse (Standard o JEE)
-- Zoom
-- Typora  
-- htop
-- Gnome Maps
 - JupyterLab
-- Ranger
 - Postman
 - Virtualbox
-- Virtual Env Python
 
 ## To Do
 - Create a BASH script to download and install everything
