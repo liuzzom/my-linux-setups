@@ -12,6 +12,12 @@ Start from a clean Kubuntu 20.10 installation, I did this
 - **Spectrum Charoite Global Theme**: https://store.kde.org/p/1449948
 - **Sweet Aurorae Window Decorations**: https://store.kde.org/p/1286856
 
+You will get something like this
+
+![Inserire Link Screen 1]()
+
+![Inserire Link Screen 2]()
+
 ## Installed Software
 
 ### Settings and Tweaks
