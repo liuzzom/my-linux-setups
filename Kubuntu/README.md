@@ -14,9 +14,9 @@ Start from a clean Kubuntu 20.10 installation, I did this
 
 You will get something like this
 
-![Inserire Link Screen 1]()
+![Inserire Link Screen 1](https://github.com/liuzzom/my-linux-setups/blob/main/Kubuntu/img/screen_01.png)
 
-![Inserire Link Screen 2]()
+![Inserire Link Screen 2](https://github.com/liuzzom/my-linux-setups/blob/main/Kubuntu/img/screen_02.png)
 
 ## Installed Software
 
@@ -74,6 +74,7 @@ You can find some useful conda command in the *conda-help* file
 	- Download: https://send-anywhere.com/file-transfer
 	- Execute .deb file to install (e.g. using `dpkg` or the snap store)
 - **htop**: `sudo apt install htop -y`
+- **Virtualbox**: Installed using *Discover*
 
 ### Office
 - **Joplin**: `sudo snap install joplin-james-carroll`
@@ -107,5 +108,3 @@ You can find some useful conda command in the *conda-help* file
 ## To Install
 - Angular
 - Docker + Docker Compose
-- JupyterLab
-- Virtualbox
