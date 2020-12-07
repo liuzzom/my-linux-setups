@@ -97,7 +97,9 @@ You can find some useful conda command in the *conda-help* file
 	- `echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list`
 	- `sudo apt update`
 	- `sudo apt install brave-browser`
-- **Mailspring**: `sudo snap install mailspring`
+- **Mailspring**: 
+  - Install Keyring Dependency: `sudo apt install gnome-keyring -y`
+  - Install: `sudo snap install mailspring`
 - **Skype**: `sudo snap install skype --classic`
 - **Zoom**: `sudo snap install zoom-client`
 - **Telegram**: `sudo apt  install telegram-desktop -y`

@@ -16,5 +16,5 @@
 - **Machine Learning**:
 	- creation: `conda create --name machine-learing`
 	- install packages: 
-		- tensorflow: `conda install tensorflow`
-		- jupyter-lab: `conda install -c conda-forge jupyterlab`
+		- *tensorflow*: `conda install tensorflow`
+		- *jupyter-lab*: `conda install -c conda-forge jupyterlab`
