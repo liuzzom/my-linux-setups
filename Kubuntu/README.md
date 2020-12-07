@@ -64,6 +64,8 @@ You will get something like this
 - **IPython**: `sudo apt install ipython3 -y`
 - **Maven**: `sudo apt install maven -y`
 - **Postman**: `sudo snap install postman`
+- **Jupyter-Lab**: see the *conda-help* file
+- **Angular**: `npm install -g @angular/cli` (You have to install *nodejs* and *npm*)
 
 You can find some useful conda command in the *conda-help* file
 
